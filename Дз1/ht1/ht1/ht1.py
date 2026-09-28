@@ -7,7 +7,7 @@ def normalized():
             n = int(n)
             break
         else: print("Ошибка!!")
-    data = np.random.randint(-50, C, size = n)
+    data = np.random.randint(-50, 100, size = n)
     print("Исходный массив: ", data)
     min_val = data[0] 
     max_val = data[0] 
@@ -23,4 +23,5 @@ def normalized():
     normalized_data = np.array(values)
     print("Нормализованный массив: ", normalized_data)
 
+np.set_printoptions(threshold=np.inf)
 normalized()

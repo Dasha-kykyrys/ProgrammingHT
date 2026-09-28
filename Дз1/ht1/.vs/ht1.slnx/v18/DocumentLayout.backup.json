@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Desktop\\Study\\\u0432\u0443\u0437\\1 \u043A\u0443\u0440\u0441\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u04371\\ht1\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Desktop\\ProgrammingHT\\\u0414\u04371\\ht1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0A874B5-44C5-458A-85D3-F2831C270150}|ht1\\ht1.pyproj|C:\\Users\\user\\OneDrive\\Desktop\\Study\\\u0432\u0443\u0437\\1 \u043A\u0443\u0440\u0441\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u04371\\ht1\\ht1\\ht1.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{C0A874B5-44C5-458A-85D3-F2831C270150}|ht1\\ht1.pyproj|C:\\Users\\user\\OneDrive\\Desktop\\ProgrammingHT\\\u0414\u04371\\ht1\\ht1\\ht1.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{C0A874B5-44C5-458A-85D3-F2831C270150}|ht1\\ht1.pyproj|solutionrelative:ht1\\ht1.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ht1.py",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Study\\\u0432\u0443\u0437\\1 \u043A\u0443\u0440\u0441\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u04371\\ht1\\ht1\\ht1.py",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\ProgrammingHT\\\u0414\u04371\\ht1\\ht1\\ht1.py",
               "RelativeDocumentMoniker": "ht1\\ht1.py",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Study\\\u0432\u0443\u0437\\1 \u043A\u0443\u0440\u0441\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0414\u04371\\ht1\\ht1\\ht1.py",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\ProgrammingHT\\\u0414\u04371\\ht1\\ht1\\ht1.py",
               "RelativeToolTip": "ht1\\ht1.py",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2026-09-28T16:03:06.504Z",
               "EditorCaption": ""
