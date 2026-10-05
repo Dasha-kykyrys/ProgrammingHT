@@ -4,7 +4,7 @@
 
 int main()
 {
-    const int MIN_N = 2, MIN_M = 2, MAX_N = 10, MAX_M = 10;
+    const int MIN_N = 2, MIN_M = 2, MAX_N = 8, MAX_M = 12;
     int n, m, match, find = 0;
     int pattern[2][2];
     srand(time(NULL));
