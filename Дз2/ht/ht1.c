@@ -4,8 +4,9 @@
 
 int main()
 {
-    const int MIN_N = 2, MIN_M = 2, MAX_N = 8, MAX_M = 12;
-    int n, m, match, find = 0;
+    const int MIN_N = 2, MIN_M = 2, MAX_N = 10, MAX_M = 10;
+    int n, m, match, find = 0, cordSize = 0;
+    int **cord = NULL;
     int pattern[2][2];
     srand(time(NULL));
     n = MIN_N + rand() % (MAX_N - MIN_N + 1);
@@ -51,11 +52,22 @@ int main()
             if(map[i+1][j+1] == pattern[1][1]) match +=1;
             if (match == 4) {
                 if (!find) find = 1;
-                map[i][j] = 2;
-                map[i][j+1] =2;
-                map[i+1][j] = 2;
-                map[i+1][j+1] = 2;
+                cord = realloc(cord, (cordSize + 1) * sizeof(int*));
+                cord[cordSize] = malloc(2 * sizeof(int));
+                cord[cordSize][0] = i;
+                cord[cordSize][1] = j;
+                cordSize++;
             }
+        }
+    
+    if(find)
+        for (int i = 0; i < cordSize; i++)
+        {
+            int x = cord[i][0], y = cord[i][1];
+            map[x][y] = 2;
+            map[x][y+1] =2;
+            map[x+1][y] = 2;
+            map[x+1][y+1] = 2;
         }
     
     if (find)
@@ -70,9 +82,13 @@ int main()
     }
     else printf("Not found");
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < m; i++)
         free(map[i]);
     free(map);
+
+    for (int i = 0; i < cordSize; i++)
+            free(cord[i]);
+        free(cord);
 
     return 0;
 }
